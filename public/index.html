@@ -17,6 +17,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3262079615.js" crossorigin="anonymous"></script>
+
   <title>Pedra✊ Papel✋ Tesoura✌️</title>
 </head>
 
@@ -44,7 +47,9 @@
         <div id="game-rules">
           <ul>
             <li>✊Pedra ganha da Tesoura✌️</li>
+            <li><i class="fas fa-arrow-down"></i></li>
             <li>✌️Tesoura ganha do Papel✋</li>
+            <li><i class="fas fa-arrow-down"></i></li>
             <li>✋Papel ganha da Pedra✊</li>
           </ul>
         </div>
@@ -52,8 +57,28 @@
     </div>
     <div class="result-area">
       <div class="cards">
-        <div class="me"></div>
-        <div class="cpu"></div>
+        <div class="me">
+          <h2>Você</h2>
+        </div>
+        <div class="cpu">
+          <h2>CPU</h2>
+        </div>
+        <div class="me-move">
+          <div></div>
+        </div>
+        <div class="versus">
+          <span style="--i:1">V</span>
+          <span style="--i:2">S</span>
+        </div>
+        <div class="cpu-move">
+          <div></div>
+        </div>
+        <div class="score">
+          <h2 class="me-score">0</h2>
+          <h2 class="result"></h2>
+          <h2 class="cpu-score">0</h2>
+        </div>
+
       </div>
       <div class="move-options">
         <div class="rock">
@@ -79,7 +104,33 @@
         </div>
       </div>
     </div>
-    <div class="dev-info"></div>
+    <div class="dev-info">
+      <div class="content">
+        <h2>Conheça o Dev!</h2>
+        <div class="dev-infos">
+          <ul>
+            <li>
+              <a href="https://github.com/PabloVeronezi" target="_blank">
+                <i class="fab fa-github"></i>
+                PabloVeronezi
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/pabloveronezi/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+                Pablo Veronezi
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/pveronezi/" target="_blank">
+                <i class="fab fa-facebook"></i>
+                pveronezi
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </main>
 
   <script src="../src/assets/scripts.js"></script>
