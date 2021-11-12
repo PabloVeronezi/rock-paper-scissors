@@ -1,16 +1,16 @@
-# rock-paper-scissors
-Do you know rock, paper, scissors right?
+# Pedra, Papel e Tesoura
+Você conhece pedra, papel, tesoura, certo?
 
-## What to do?
-- Create a simple and fun layout
-- Add some cartoon desing
-- Play with animations
-- Improve skills with DOM, JS, CSS
-- At the end but not less important
-- Last but not least, have fun!!
+<img src="./projeto.gif" alt="Gif Projeto">
 
+Esse simples projeto foi feito para consolidar meus conhecimentos adquiridos com estudos na programação, utilizando HTML, CSS e JavaScript. A partir dessas ferramentas consegui desenvolver um dos jogos mais famosos da infância.
 
-## What's left to do?
-- Add media queries to make the site responsible
-- Add JS to make the game work
-- Last but not least, play the game !!
+Gostaria de fazer um agradecimento a meu amigo e padrinho da programação <a href="https://github.com/GabrielSampaio7">Gabriel Sampaio</a>.
+Sem seu support não teria conseguido terminar o projeto.
+
+# O que ainda falta ser feito?!
+- Responsividade
+- Qualquer outra sugestão para melhorar ainda mais o projeto é sempre bem vinda.
+
+# Boa sorte!!
+
